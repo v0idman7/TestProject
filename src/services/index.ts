@@ -15,14 +15,6 @@ export const checkToken = () => {
   return "";
 };
 
-export const getAuthorization = () => {
-  const authorization = checkToken();
-  if (!authorization) {
-    return "";
-  }
-  return authorization;
-};
-
 export const api = axios.create({
   baseURL: "https://jogtracker.herokuapp.com/api/v1/",
   headers: {
