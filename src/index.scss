@@ -1,0 +1,39 @@
+@font-face {
+  font-family: SFUIText;
+  src: local("SFUIText-Regular"),
+    url("./asset/fonts/SFUIText-Regular.woff2") format("woff2"),
+    url("./asset/fonts/SFUIText-Regular.woff") format("woff"),
+    url("./asset/fonts/SFUIText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: SFUIText;
+  src: local("SFUIText-Medium"),
+    url("./asset/fonts/SFUIText-Medium.woff2") format("woff2"),
+    url("./asset/fonts/SFUIText-Medium.woff") format("woff"),
+    url("./asset/fonts/SFUIText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: SFUIText;
+  src: local("SFUIText-Bold"),
+    url("./asset/fonts/SFUIText-Bold.woff2") format("woff2"),
+    url("./asset/fonts/SFUIText-Bold.woff") format("woff"),
+    url("./asset/fonts/SFUIText-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+body {
+  margin: 0;
+  font-family: SFUIText;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

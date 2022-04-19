@@ -1,0 +1,41 @@
+.jogsPage {
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(100vh - 116px);
+  overflow: auto;
+
+  @media screen and (max-width: 600px) {
+    height: calc(100vh - 77px);
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__add {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: url("../../asset/images/add.svg") center no-repeat;
+    border: 0;
+
+    @media screen and (max-width: 600px) {
+      bottom: 30px;
+      right: 30px;
+      width: 47px;
+      height: 47px;
+    }
+  }
+}

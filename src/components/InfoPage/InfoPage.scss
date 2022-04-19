@@ -1,0 +1,26 @@
+.infoPage {
+  max-width: 614px;
+  padding: 0 25px;
+  margin: 85px auto 0;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 24px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #7ed321;
+
+    @media screen and (max-width: 600px) {
+      margin-bottom: 6px;
+    }
+  }
+
+  &__paragraph {
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

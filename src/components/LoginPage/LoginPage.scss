@@ -1,0 +1,51 @@
+.loginPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 503px;
+  height: 379px;
+  padding: 77px 171px 36px;
+  border-radius: 44px;
+  background-color: #e990f9;
+
+  @media screen and (max-width: 600px) {
+    width: 160px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 0;
+  }
+
+  &__image {
+    width: 160px;
+    height: 150px;
+    background: url("../../asset/images/bear-face.png") center no-repeat;
+
+    @media screen and (max-width: 600px) {
+      background: url("../../asset/images/bear-face-pink.png") center no-repeat;
+    }
+  }
+
+  &__button {
+    height: 60px;
+    width: 151px;
+    margin: 0 auto;
+    border: 3px solid #ffffff;
+    border-radius: 36px;
+    color: #ffffff;
+    background-color: inherit;
+    font-size: 18px;
+    font-weight: bold;
+
+    @media screen and (max-width: 600px) {
+      border-color: #e990f9;
+      color: #e990f9;
+      width: 100%;
+      margin-top: 100px;
+    }
+  }
+}

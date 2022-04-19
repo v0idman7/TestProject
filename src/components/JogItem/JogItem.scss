@@ -1,0 +1,78 @@
+.jogItem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 0;
+
+  @media screen and (max-width: 600px) {
+    border-bottom: 2px solid #d7d7d7;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &__image {
+    width: 87px;
+    height: 87px;
+    margin-right: 46px;
+    align-self: center;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    width: 120px;
+  }
+
+  &__infoItem {
+    margin-bottom: 12px;
+    color: #979797;
+
+    &:first-of-type {
+      margin-bottom: 9px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__infoName {
+    color: #000000;
+  }
+
+  &__button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    @media screen and (max-width: 600px) {
+      opacity: 1;
+    }
+  }
+
+  &:hover {
+    .jogItem__button {
+      opacity: 1;
+    }
+  }
+
+  &__edit {
+    top: 50px;
+    right: calc(50% - 140px);
+    background: url("../../asset/images/edit.svg") center no-repeat;
+  }
+
+  &__delete {
+    top: 50px;
+    right: calc(50% - 180px);
+    background: url("../../asset/images/delete.svg") center no-repeat;
+  }
+}
