@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/TestProject/static/css/main.ba5a7935.css",
+    "main.js": "/TestProject/static/js/main.1a9dcffb.js",
+    "static/media/SFUIText-Bold.ttf": "/TestProject/static/media/SFUIText-Bold.a2580a5ed61544f9dfc6.ttf",
+    "static/media/SFUIText-Medium.ttf": "/TestProject/static/media/SFUIText-Medium.45630b95997cd591e5bc.ttf",
+    "static/media/SFUIText-Regular.ttf": "/TestProject/static/media/SFUIText-Regular.03234af84a13feaa29bd.ttf",
+    "static/media/SFUIText-Medium.woff": "/TestProject/static/media/SFUIText-Medium.7a83304e816b06d35492.woff",
+    "static/media/SFUIText-Bold.woff": "/TestProject/static/media/SFUIText-Bold.42a114dc81fbcbfb38c2.woff",
+    "static/media/SFUIText-Regular.woff": "/TestProject/static/media/SFUIText-Regular.a5782f9286a232d19504.woff",
+    "static/media/SFUIText-Medium.woff2": "/TestProject/static/media/SFUIText-Medium.732b7ab945209131c912.woff2",
+    "static/media/SFUIText-Bold.woff2": "/TestProject/static/media/SFUIText-Bold.2c0c6a49d1d208d9885c.woff2",
+    "static/media/SFUIText-Regular.woff2": "/TestProject/static/media/SFUIText-Regular.9403f100f8ecaac50c42.woff2",
+    "static/media/bear-face-pink.png": "/TestProject/static/media/bear-face-pink.65f32a0e46d915c900a7.png",
+    "static/media/bear-face.png": "/TestProject/static/media/bear-face.8ad3ae8ebdb5c6b95ee9.png",
+    "static/media/sad.png": "/TestProject/static/media/sad.991809c08e4d0bc38bd6.png",
+    "static/media/logo-green.svg": "/TestProject/static/media/logo-green.140c9ff71adb9628c2f3f9935969b629.svg",
+    "static/media/logo.svg": "/TestProject/static/media/logo.61b529fb4af2f2b57b5ef230905cd17a.svg",
+    "static/media/menu.svg": "/TestProject/static/media/menu.7df857925b0d6b3b043e.svg",
+    "static/media/edit.svg": "/TestProject/static/media/edit.c3cfaeefd04f8a03da37.svg",
+    "static/media/delete.svg": "/TestProject/static/media/delete.b1a21ee40f2e0ceea202.svg",
+    "static/media/add.svg": "/TestProject/static/media/add.2f2b55b5cb6cad4601f9.svg",
+    "static/media/cancel-grey.svg": "/TestProject/static/media/cancel-grey.98baeb5075f8d23b91dd.svg",
+    "static/media/cancel.svg": "/TestProject/static/media/cancel.e46b2302e3760910f0f2.svg",
+    "index.html": "/TestProject/index.html",
+    "static/media/filter-active.svg": "/TestProject/static/media/filter-active.b812cbd635aa891368af.svg",
+    "static/media/filter.svg": "/TestProject/static/media/filter.bd406eabc371f761583d.svg",
+    "main.ba5a7935.css.map": "/TestProject/static/css/main.ba5a7935.css.map",
+    "main.1a9dcffb.js.map": "/TestProject/static/js/main.1a9dcffb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba5a7935.css",
+    "static/js/main.1a9dcffb.js"
+  ]
+}
